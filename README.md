@@ -64,3 +64,11 @@ Pages: `/`, `/about/`, `/experience/`, and `/contact/`. All assets and internal 
 ## Package contents
 
 This package contains source, the dependency lockfile, and the supplied résumé. It excludes Git history, installed dependencies, generated build output, credentials, and the previous Sites hosting configuration.
+
+## Featured independent product
+
+Signal Noir is configured in `lib/products.ts` and rendered by `components/featured-product.tsx`. The homepage feature follows Skills; About includes a short independent development note. Edit product content and verified labels in the configuration, not the component.
+
+`public/images/signal-noir-preview.webp` is a genuine screenshot of https://signal-noir-2e7.pages.dev/ captured October 25, 2026, resized only by normal browser display and encoded as WebP (1280 × 720, about 46 KB). It shows the real landing interface without fabricated data. Verified labels describe the live local-first workflow, SQL tools, AI-assisted analysis, dashboards, and inspectable evidence. The preview loads lazily; all product links open with `noopener noreferrer`.
+
+This integration preserves the existing static export, dependencies, navigation, and hosting configuration. It does not require an OpenNext adapter, backend, or a deployment step. Pointer depth effects are limited to mouse input, and reduced-motion preferences disable the new motion effects.
